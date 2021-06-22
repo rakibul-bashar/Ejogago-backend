@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  ejogajog :
+#    image: creation:1
+    container_name: ejogajog
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/ejogajog
+    ports:
+      - "9090:9090"
+
+

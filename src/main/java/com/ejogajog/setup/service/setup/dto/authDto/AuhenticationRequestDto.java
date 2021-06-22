@@ -1,0 +1,18 @@
+package com.ejogajog.setup.service.setup.dto.authDto;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ *
+ * @author rakibul
+ */
+
+@Setter
+@Getter
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class AuhenticationRequestDto {
+    private String username;
+	private String password;
+}
