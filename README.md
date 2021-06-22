@@ -1,5 +1,4 @@
-# JWT Authentication With Spring Boot 2 and Angular 8
-
+# JWT Authentication With Spring Boot 2
 # Use Technologies below:
 
 # Backend server
@@ -16,25 +15,23 @@ Spring Data
 
 Hibernate 5 + JPA 2
 
-H2 Or Mysql Database 
+H2 Or Postgresql Database 
 
-Liquibase
 
 Lombok
 
-Testing frameworks (JUnit, Mockito)
 
 Maven
 
 # Build & run  Maven Spring Boot Applications 
 
-Project name : JavaSpringBootJwtAuthApiServer
+Project name : Ejogajog Service
 
 goto where pom.xml is keep
 
 `mvn install`
 
-`java -jar target/JavaSpringBootJwtAuthApiServer-0.0.1-SNAPSHOT.jar`
+`java -jar target/EjogajogService 0.0.1-SNAPSHOT.jar`
 
 `mvn spring-boot:run`
 
@@ -43,6 +40,10 @@ goto where pom.xml is keep
 
 When you run our application, specification will be generated. You can check it here:
 
-### http://localhost:8686/ejogajogUserCreationService/v2/api-docs
+### http://localhost:9090/v2/api-docs
 
-### http://localhost:8686/ejogajogUserCreationService/swagger-ui.html#
+### http://localhost:9090/swagger-ui.html#
+
+## Added predefined roles data IN role table
+-INSERT INTO roles(name) VALUES('ROLE_CUSTOMER');
+-INSERT INTO roles(name) VALUES('ROLE_ADMIN');
