@@ -1,4 +1,4 @@
-# JWT Authentication With Spring Boot 2
+# JWT Authentication and Ejogajog service With Spring Boot 2
 # Use Technologies below:
 
 # Backend server
@@ -45,5 +45,5 @@ When you run our application, specification will be generated. You can check it 
 ### http://localhost:9090/swagger-ui.html#
 
 ## Added predefined roles data IN role table
--INSERT INTO roles(name) VALUES('ROLE_CUSTOMER');
--INSERT INTO roles(name) VALUES('ROLE_ADMIN');
+INSERT INTO roles(name) VALUES('ROLE_CUSTOMER');
+INSERT INTO roles(name) VALUES('ROLE_ADMIN');
